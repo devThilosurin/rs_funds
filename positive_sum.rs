@@ -27,6 +27,6 @@ fn main() {
     }
 }
 
-fn solution(arr: &[i32]) -> i32 {
+fn solution_short(arr: &[i32]) -> i32 {
     arr.iter().filter(|x| x.is_positive()).sum()
 }
